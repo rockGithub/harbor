@@ -20,7 +20,7 @@ ENV SOURCES="file go_bindata github aws_s3 google_cloud_storage"
 
 RUN go build -a -o build/migrate.linux-386 -ldflags="-X main.Version=${VERSION}" -tags "$DATABASES $SOURCES" ./cli
 
-FROM alpine:3.7
+FROM alpine:3.19.6
 
 RUN apk add --no-cache ca-certificates
 
