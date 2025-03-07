@@ -42,7 +42,7 @@
         "ng-packagr": "^4.1.1",
         "ngx-clipboard": "^11.1.1",
         "ngx-cookie": "^1.0.0",
-        "ngx-markdown": "^6.2.0",
+        "ngx-markdown": "^17.0.0",
         "rxjs": "^6.3.1",
         "ts-helpers": "^1.1.1",
         "tslib": "^1.9.0",
